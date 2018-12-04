@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>クラウンベーカリー</title>
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		<p><img src="images/logo.png" width="412" height="54" alt="Crown Bakery クラウンベーカリー" /></p>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html"><img src="images/nav_home.png" width="245" height="52" alt="ホーム" onmouseover="this.src='images/nav_home_sel.png'" onmouseout="this.src='images/nav_home.png'" /></a></li>
+				<li><a href="products.html"><img src="images/nav_products.png" width="245" height="52" alt="商品一覧" onmouseover="this.src='images/nav_products_sel.png'" onmouseout="this.src='images/nav_products.png'" /></a></li>
+				<li><a href="shop.html"><img src="images/nav_shop.png" width="245" height="52" alt="店舗情報" onmouseover="this.src='images/nav_shop_sel.png'" onmouseout="this.src='images/nav_shop.png'" /></a></li>
+				<li><a href="contact.html"><img src="images/nav_contact.png" width="245" height="52" alt="お問い合わせ" onmouseover="this.src='images/nav_contact_sel.png'" onmouseout="this.src='images/nav_contact.png'" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="main">
+			<h1><img src="images/order_title.png" width="660" height="34" alt="商品のご購入" /></h1>
+			<div id="order">
+				<form action="" method="post">
+					<p class="title">お名前</p>
+					<p>
+						<input name="name" type="text" size="45" />
+					</p>
+					<p class="title">メールアドレス</p>
+					<p>
+						<input name="email" type="text" size="45" />
+						&nbsp;（半角英数字）</p>
+					<p class="title">郵便番号</p>
+					<p>
+						<input name="postal1" type="text" size="3" maxlength="3" />
+						&nbsp;-&nbsp;
+						<input name="postal2" type="text" size="4" maxlength="4" />
+					</p>
+					<p class="title">住所</p>
+					<p>
+						<textarea name="address" cols="58" rows="5"></textarea>
+					</p>
+					<p class="title">ご注文商品</p>
+					<p><span>
+						<input name="products" type="checkbox" value="イチゴのプリンパン" />
+						イチゴのプリンパン
+						<select name="strawberry_number">
+							<option value="1" selected="selected">1個</option>
+							<option value="2">2個</option>
+							<option value="3">3個</option>
+						</select>
+						</span> <span>
+						<input name="products" type="checkbox" value="チーズフランス" />
+						チーズフランス
+						<select name="cheese_number">
+							<option value="1" selected="selected">1個</option>
+							<option value="2">2個</option>
+							<option value="3">3個</option>
+						</select>
+						</span> <span>
+						<input type="checkbox" name="products" value="チョコバターロール" />
+						チョコバターロール
+						<select name="chocolate_number">
+							<option value="1" selected="selected">1個</option>
+							<option value="2">2個</option>
+							<option value="3">3個</option>
+						</select>
+						</span> <span>
+						<input type="checkbox" name="products" value="つぶあんパン" />
+						つぶあんぱん
+						<select name="beanjam_number">
+							<option value="1" selected="selected">1個</option>
+							<option value="2">2個</option>
+							<option value="3">3個</option>
+						</select>
+						</span> <span>
+						<input type="checkbox" name="products" value="バタール" />
+						バタール
+						<select name="bataru_number">
+							<option value="1" selected="selected">1個</option>
+							<option value="2">2個</option>
+							<option value="3">3個</option>
+						</select>
+						</span> <span>
+						<input type="checkbox" name="products" value="マカロンチョコ" />
+						マカロンチョコ
+						<select name="macaroon_number">
+							<option value="1" selected="selected">1個</option>
+							<option value="2">2個</option>
+							<option value="3">3個</option>
+						</select>
+						</span> </p>
+					<p class="title">お支払い方法</p>
+					<p>
+						<input name="payment" type="radio" value="銀行振り込み" />
+						銀行振り込み
+						<input name="payment" type="radio" value="クレジットカード" />
+						クレジットカード
+						<input name="payment" type="radio" value="着払い" />
+						着払い </p>
+					<p id="btn">
+						<input name="" type="submit" value="送信する" />
+					</p>
+				</form>
+			</div>
+		</div>
+		<div id="side">
+			<ul>
+				<li><a href="item.html"><img src="images/banner_01.jpg" width="300" height="142" alt="今月の新商品" /></a></li>
+				<li><a href="products.html"><img src="images/banner_02.jpg" width="300" height="82" alt="今月のお得商品" /></a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Copyright &copy; Crown Bakery Japan Co., Ltd. All rights reserved.</p>
+	</div>
+</div>
+</body>
+</html>

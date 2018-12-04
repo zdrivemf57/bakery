@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* 基本 */
+html, body, div, span, h1, h2, h3, p, a, img,
+dl, dt, dd, ul, li, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	font-size: 100%;
+	color: #555555;
+}
+#container {
+	width: 980px;
+	margin: 0px auto;
+}
+#header h1 , #header p{
+	margin: 10px 0px 10px 5px;
+}
+#nav ul {
+	background-color: #692f0c;
+	height: 52px;
+	width: 980px;
+	padding-bottom: 8px;
+}
+#nav ul li {
+	float: left;
+	height: 52px;
+	width: 245px;
+	list-style-type: none;
+}
+#contents {
+	width: 980px;
+	margin-top: 12px;
+	overflow: hidden;
+}
+#main {
+	float: left;
+	width: 660px;
+}
+#side {
+	float: right;
+	width: 300px;
+}
+#side ul li {
+	list-style-type: none;
+	margin-bottom: 6px;
+}
+#footer {
+	font-size: 75%;
+	color: #682c09;
+	text-align: center;
+	clear: both;
+	padding: 10px 0px 15px;
+	border-top: 4px solid #b3693d;
+	margin-top: 20px;
+}
